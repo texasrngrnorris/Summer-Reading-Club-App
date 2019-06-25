@@ -55,12 +55,12 @@ class AdminViewController : UIViewController, UITextFieldDelegate, MFMailCompose
             composeVC.mailComposeDelegate = self
             
             // Configure the fields of the interface.
-            composeVC.setToRecipients(["studio@sachemlibrary.org"])
-            composeVC.setSubject("Patron Raffle Data")
-            composeVC.setMessageBody("Patorn entries CSV.", isHTML: false)
+            composeVC.setToRecipients(["christine.latham@sachemlibrary.org"])
+            composeVC.setSubject("Patron Raffle Entries")
+            composeVC.setMessageBody("Patorn raffle entries CSV file is attached.", isHTML: false)
             let fileLocationForLoad = URL(fileURLWithPath: file, relativeTo: dir)
             let fileData =  NSData(contentsOf: fileLocationForLoad)
-            composeVC.addAttachmentData(fileData! as Data, mimeType: "csv", fileName: "patronData.csv")
+            composeVC.addAttachmentData(fileData! as Data, mimeType: "csv", fileName: "RaffleEntries.csv")
             
             
             // Present the view controller modally.
