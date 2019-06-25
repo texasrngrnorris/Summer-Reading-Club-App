@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5B5EC1226E677000ABA1E0 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5B5EBF226E677000ABA1E0 /* Logo.png */; };
+		FA5B5EC2226E677000ABA1E0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5B5EC0226E677000ABA1E0 /* background.png */; };
+		FA5B5EC4226E96AE00ABA1E0 /* Patron.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B5EC3226E96AD00ABA1E0 /* Patron.swift */; };
 		FA613A9E225BEBD2003C5A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA613A9D225BEBD2003C5A5A /* AppDelegate.swift */; };
 		FA613AA0225BEBD2003C5A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA613A9F225BEBD2003C5A5A /* ViewController.swift */; };
 		FA613AA3225BEBD2003C5A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA613AA1225BEBD2003C5A5A /* Main.storyboard */; };
 		FA613AA6225BEBD2003C5A5A /* Summer_Reading_Club_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA613AA4225BEBD2003C5A5A /* Summer_Reading_Club_App.xcdatamodeld */; };
 		FA613AA8225BEBD3003C5A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA613AA7225BEBD3003C5A5A /* Assets.xcassets */; };
 		FA613AAB225BEBD3003C5A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA613AA9225BEBD3003C5A5A /* LaunchScreen.storyboard */; };
+		FA783B32228736BB00D7A311 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA783B31228736BB00D7A311 /* AdminViewController.swift */; };
+		FA783B34228746FD00D7A311 /* AdminLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA783B33228746FD00D7A311 /* AdminLoginController.swift */; };
+		FA783B38228A1ECA00D7A311 /* entryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA783B37228A1ECA00D7A311 /* entryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA5B5EBF226E677000ABA1E0 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		FA5B5EC0226E677000ABA1E0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		FA5B5EC3226E96AD00ABA1E0 /* Patron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patron.swift; sourceTree = "<group>"; };
 		FA613A9A225BEBD2003C5A5A /* Summer Reading Club App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Summer Reading Club App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA613A9D225BEBD2003C5A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA613A9F225BEBD2003C5A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		FA613AA7225BEBD3003C5A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA613AAA225BEBD3003C5A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA613AAC225BEBD3003C5A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA783B31228736BB00D7A311 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		FA783B33228746FD00D7A311 /* AdminLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginController.swift; sourceTree = "<group>"; };
+		FA783B37228A1ECA00D7A311 /* entryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		FA613A9C225BEBD2003C5A5A /* Summer Reading Club App */ = {
 			isa = PBXGroup;
 			children = (
+				FA5B5EC0226E677000ABA1E0 /* background.png */,
+				FA5B5EBF226E677000ABA1E0 /* Logo.png */,
 				FA613A9D225BEBD2003C5A5A /* AppDelegate.swift */,
+				FA5B5EC3226E96AD00ABA1E0 /* Patron.swift */,
 				FA613A9F225BEBD2003C5A5A /* ViewController.swift */,
+				FA783B37228A1ECA00D7A311 /* entryTableViewController.swift */,
 				FA613AA1225BEBD2003C5A5A /* Main.storyboard */,
+				FA783B31228736BB00D7A311 /* AdminViewController.swift */,
+				FA783B33228746FD00D7A311 /* AdminLoginController.swift */,
 				FA613AA7225BEBD3003C5A5A /* Assets.xcassets */,
 				FA613AA9225BEBD3003C5A5A /* LaunchScreen.storyboard */,
 				FA613AAC225BEBD3003C5A5A /* Info.plist */,
@@ -125,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5B5EC1226E677000ABA1E0 /* Logo.png in Resources */,
+				FA5B5EC2226E677000ABA1E0 /* background.png in Resources */,
 				FA613AAB225BEBD3003C5A5A /* LaunchScreen.storyboard in Resources */,
 				FA613AA8225BEBD3003C5A5A /* Assets.xcassets in Resources */,
 				FA613AA3225BEBD2003C5A5A /* Main.storyboard in Resources */,
@@ -139,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA613AA0225BEBD2003C5A5A /* ViewController.swift in Sources */,
+				FA783B34228746FD00D7A311 /* AdminLoginController.swift in Sources */,
+				FA5B5EC4226E96AE00ABA1E0 /* Patron.swift in Sources */,
 				FA613AA6225BEBD2003C5A5A /* Summer_Reading_Club_App.xcdatamodeld in Sources */,
+				FA783B38228A1ECA00D7A311 /* entryTableViewController.swift in Sources */,
+				FA783B32228736BB00D7A311 /* AdminViewController.swift in Sources */,
 				FA613A9E225BEBD2003C5A5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
