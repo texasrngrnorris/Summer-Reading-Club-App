@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +15,53 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ReadingClub.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jDK-OL-hha">
+                                <rect key="frame" x="20" y="20" width="728" height="984"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Children's Summer Reading Club Raffle Entry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41T-BQ-7ta">
+                                <rect key="frame" x="20" y="20" width="728" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="RJv-4U-8mL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItH-zz-Oon">
+                                <rect key="frame" x="20" y="873" width="728" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="q8w-rs-eCk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="leading" secondItem="ItH-zz-Oon" secondAttribute="leading" id="248-0X-8LE"/>
+                            <constraint firstAttribute="bottom" secondItem="ItH-zz-Oon" secondAttribute="bottom" constant="20" symbolic="YES" id="3mk-B1-dTd"/>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="bottom" secondItem="ItH-zz-Oon" secondAttribute="bottom" id="Dbz-Ro-NGg"/>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="FBf-Zs-Jzd"/>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ito-Ge-qJr"/>
+                            <constraint firstItem="41T-BQ-7ta" firstAttribute="trailing" secondItem="ItH-zz-Oon" secondAttribute="trailing" id="oKa-9D-HnC"/>
+                            <constraint firstItem="41T-BQ-7ta" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="oQL-JY-6og"/>
+                            <constraint firstItem="41T-BQ-7ta" firstAttribute="top" secondItem="jDK-OL-hha" secondAttribute="top" id="rwU-aP-6bZ"/>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="leading" secondItem="41T-BQ-7ta" secondAttribute="leading" id="tUH-O5-FTE"/>
+                            <constraint firstItem="jDK-OL-hha" firstAttribute="trailing" secondItem="ItH-zz-Oon" secondAttribute="trailing" id="ucG-AK-2FF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.34375" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ReadingClub.jpg" width="570" height="500"/>
+    </resources>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0DFA9E22C2B1CC00173BC9 /* ReadingClub.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA0DFA9D22C2B1CB00173BC9 /* ReadingClub.jpg */; };
 		FA5B5EC1226E677000ABA1E0 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5B5EBF226E677000ABA1E0 /* Logo.png */; };
 		FA5B5EC2226E677000ABA1E0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FA5B5EC0226E677000ABA1E0 /* background.png */; };
 		FA5B5EC4226E96AE00ABA1E0 /* Patron.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B5EC3226E96AD00ABA1E0 /* Patron.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA0DFA9D22C2B1CB00173BC9 /* ReadingClub.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReadingClub.jpg; sourceTree = "<group>"; };
 		FA5B5EBF226E677000ABA1E0 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		FA5B5EC0226E677000ABA1E0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		FA5B5EC3226E96AD00ABA1E0 /* Patron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patron.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				FA783B33228746FD00D7A311 /* AdminLoginController.swift */,
 				FA613AA7225BEBD3003C5A5A /* Assets.xcassets */,
 				FA613AA9225BEBD3003C5A5A /* LaunchScreen.storyboard */,
+				FA0DFA9D22C2B1CB00173BC9 /* ReadingClub.jpg */,
 				FA613AAC225BEBD3003C5A5A /* Info.plist */,
 				FA613AA4225BEBD2003C5A5A /* Summer_Reading_Club_App.xcdatamodeld */,
 			);
@@ -147,6 +150,7 @@
 				FA5B5EC2226E677000ABA1E0 /* background.png in Resources */,
 				FA613AAB225BEBD3003C5A5A /* LaunchScreen.storyboard in Resources */,
 				FA613AA8225BEBD3003C5A5A /* Assets.xcassets in Resources */,
+				FA0DFA9E22C2B1CC00173BC9 /* ReadingClub.jpg in Resources */,
 				FA613AA3225BEBD2003C5A5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "SPL.Summer-Reading-Club-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -338,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "SPL.Summer-Reading-Club-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
