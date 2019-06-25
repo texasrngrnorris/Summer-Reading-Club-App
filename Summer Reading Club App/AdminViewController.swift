@@ -133,9 +133,9 @@ class AdminViewController : UIViewController, UITextFieldDelegate, MFMailCompose
     
     
     
-    //Delete Teen Sign-In Data
+    //Delete Registration Data
     @IBAction func deleteLogins(_ sender: Any) {
-        let alertController = UIAlertController(title: "Delete all login data?", message: "Are you sure?",preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Delete all registration data?", message: "Are you sure?",preferredStyle: UIAlertController.Style.alert)
         
         
         alertController.addAction(UIAlertAction(title: "YES", style: .default, handler: { (action: UIAlertAction!) in
